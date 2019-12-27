@@ -21,7 +21,7 @@ docker-compose.yml
 version: '3.3'
 services:
   freepbx:
-    image: flaviostutz/freepbx:14.0
+    image: rahulosp/asterisk:dev1
     network_mode: host
     restart: always
     volumes:
